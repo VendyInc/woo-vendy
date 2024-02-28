@@ -1717,7 +1717,7 @@ class WC_Gateway_Vendy extends WC_Payment_Gateway_CC
 
                     if ($refund_response->data->status) {
                         $amount = wc_price($amount, array('currency' => $order_currency));
-                        $refund_id = $refund_response->data->id;
+                        $refund_id = $refund_response->data->refid;
                         $refund_message = sprintf(__('Refunded %1$s. Refund ID: %2$s. Reason: %3$s', 'woo-vendy'), $amount, $refund_id, $reason);
                         $order->add_order_note($refund_message);
 
