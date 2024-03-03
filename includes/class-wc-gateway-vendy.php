@@ -684,6 +684,7 @@ class WC_Gateway_Vendy extends WC_Payment_Gateway_CC
 
         $vendy_params = array(
             'key' => $this->public_key,
+            'testMode' => $this->testmode
         );
 
         if (is_checkout_pay_page() && get_query_var('order-pay')) {
