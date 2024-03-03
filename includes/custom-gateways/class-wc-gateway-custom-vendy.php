@@ -446,7 +446,7 @@ class WC_Gateway_Custom_Vendy extends WC_Gateway_Vendy_Subscriptions {
 
 		wp_enqueue_script( 'jquery' );
 
-		wp_enqueue_script( 'vendy', 'https://collections.myvendy.com/v1/inline.js', array( 'jquery' ), WC_VENDY_VERSION, false );
+		wp_enqueue_script( 'vendy', 'https://collections.myvendy.com/v1/inline.min.js', array( 'jquery' ), WC_VENDY_VERSION, false );
 
 		wp_enqueue_script( 'wc_vendy', plugins_url( 'assets/js/vendy' . $suffix . '.js', WC_VENDY_MAIN_FILE ), array( 'jquery', 'vendy' ), WC_VENDY_VERSION, false );
 
