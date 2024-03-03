@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'WC_VENDY_MAIN_FILE', __FILE__ );
 define( 'WC_VENDY_URL', untrailingslashit( plugins_url( '/', __FILE__ ) ) );
 
-define( 'WC_VENDY_VERSION', '0.0.2' );
+define( 'WC_VENDY_VERSION', '1.0.1' );
 
 /**
  * Initialize Vendy WooCommerce payment gateway.

@@ -8,7 +8,7 @@
 
 **Tested up to:** 5.4
 
-**Stable tag:** 1.0.0
+**Stable tag:** 1.0.1
 
 **License:** GPLv2 or later
 
@@ -113,6 +113,10 @@ To configure the plugin, go to **WooCommerce > Settings** from the left hand me
 - If a subscription has a free trial and no signup-fee, automatically renewal is not possible because the order total will be 0, after the free trial the subscription will be put on-hold. The customer will have to login to his account to renew his subscription. If a MasterCard or Visa card is used to renew subsequent renewals will be automatic throughout the duration of the subscription, if a Verve card is used automatic renewal isn't possible.
 
 ## Changelog
+
+### 1.0.1 - March 3, 2024
+
+- Fix issue where test mode doesn't actually switch to prod
 
 ### 1.0.0 - February 28, 2024
 
