@@ -1,9 +1,9 @@
 === Vendy WooCommerce Gateway ===
 Contributors: Ayomide Fagbohungbe
-Tags: vendy, woocommerce, payment gateway, verve, nigeria, naira, rand, mastercard, visa
+Tags: vendy, woocommerce, payment gateway, verve, nigeria, naira, mastercard, visa
 Requires at least: 5.8
 Tested up to: 6.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@ Vendy for WooCommerce allows your store in Nigeria to accept secure payments fro
 
 == Description ==
 
-Vendy makes it easy for businesses in Nigeria to accept secure payments from multiple local and global payment channels. Integrate Vendy with your store today, and let your customers pay you with their choice of methods.
+Vendy makes it easy for businesses in Nigeria tobum accept secure payments from multiple local and global payment channels. Integrate Vendy with your store today, and let your customers pay you with their choice of methods.
 
 With Vendy for WooCommerce, you can accept payments via:
 
@@ -109,9 +109,14 @@ If you do not find Vendy on the Payment method options, please go through the se
 
 
 == Changelog ==
-= 1.0.0 - February 28, 2024 =
-*   First release
 
+= 1.0.1 - March 3, 2024
+
+- Fix issue where test mode doesn't actually switch to prod
+
+= 1.0.0 - February 28, 2024 =
+
+*   First release
 
 == Screenshots ==
 

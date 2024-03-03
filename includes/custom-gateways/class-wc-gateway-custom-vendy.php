@@ -452,7 +452,7 @@ class WC_Gateway_Custom_Vendy extends WC_Gateway_Vendy_Subscriptions {
 
 		$vendy_params = array(
 			'key' => $this->public_key,
-            'testMode' => $this->testmode
+			'testMode' => $this->testmode
 		);
 
 		if ( is_checkout_pay_page() && get_query_var( 'order-pay' ) ) {
