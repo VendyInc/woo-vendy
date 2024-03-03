@@ -186,14 +186,13 @@ jQuery(function ($) {
         }
 
         const vendyPay = new VendyPay();
-
         vendyPay.initPayPopup({
             key: wc_vendy_params.key,
             amount: amount,
             currency: wc_vendy_params.currency,
             phoneNumber: wc_vendy_params.meta_phone,
             chargeCustomer: true,
-            isTest: true,
+            isTest: wc_vendy_params.testMode,
             meta: {
                 reference: wc_vendy_params.txnref,
                 custom_fields: meta_data,
