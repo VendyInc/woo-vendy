@@ -3,7 +3,7 @@
  * Plugin Name: Vendy WooCommerce Payment Gateway
  * Plugin URI: https://myvendy.com
  * Description: WooCommerce payment gateway for Vendy
- * Version: 0.0.1
+ * Version: 1.0.1
  * Author: Vendy Dev
  * Author URI: https://vendy.readme.io
  * License: GPL-2.0+
