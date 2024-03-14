@@ -1,4 +1,4 @@
-# Vendy WooCommerce Gateway
+# Vendy Woo Gateway
 
 **Contributors:** Ayomide Fagbohungbe
 
@@ -14,19 +14,19 @@
 
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
-Vendy WooCommerce Payment Gateway allows you to accept online payments from local and international customers
+Vendy Woo Payment Gateway allows you to accept online payments from local and international customers
 
 ## Description
 
-This is a Vendy payment gateway for WooCommerce.
+This is a Vendy payment gateway for Woo.
 
 Vendy is on a mission to deliver a safe and convenient payment experience for customers and merchants. Vendy provide Nigerian with the tools and services needed to accept online payments from local and international customers using Mastercard, Visa, Verve, Bank Accounts, GTB 737 & Visa QR.
 
 To signup for a Vendy Merchant account visit their website by clicking [here](https://myvendy.com)
 
-Vendy WooCommerce Payment Gateway allows you to accept payment on your WooCommerce store using Mastercard, Visa, Verve, Bank Transfer.
+Vendy Woo Payment Gateway allows you to accept payment on your Woo store using Mastercard, Visa, Verve, Bank Transfer.
 
-With this Vendy WooCommerce Payment Gateway plugin, you will be able to accept the following payment methods in your shop:
+With this Vendy Woo Payment Gateway plugin, you will be able to accept the following payment methods in your shop:
 
 - **Mastercard**
 - **Visa**
@@ -40,14 +40,14 @@ This plugin is meant to be used by merchants in Nigeria.
 ### Plugin Features
 
 - **Accept payment** via Mastercard, Visa, Verve & Bank Transfer
-- **Seamless integration** into the WooCommerce checkout page. Accept payment directly on your site
-- **Refunds** from the WooCommerce order details page. Refund an order directly from the order details page
+- **Seamless integration** into the Woo checkout page. Accept payment directly on your site
+- **Refunds** from the Woo order details page. Refund an order directly from the order details page
 
-### WooCommerce Subscriptions Integration
+### Woo Subscriptions Integration
 
-- The [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) integration only works with **WooCommerce v2.6 and above** and **WooCommerce Subscriptions v2.0 and above**.
+- The [Woo Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) integration only works with **WooCommerce v2.6 and above** and **WooCommerce Subscriptions v2.0 and above**.
 
-- No subscription plans is created on Vendy. The [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) plugin handles all the subscription functionality.
+- No subscription plans is created on Vendy. The [Woo Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) plugin handles all the subscription functionality.
 
 - If a customer pays for a subscription using a Mastercard or Visa card, their subscription will renew automatically throughout the duration of the subscription. If an automatic renewal fail their subscription will be put on-hold and they will have to login to their account to renew the subscription.
 
@@ -61,8 +61,8 @@ This plugin is meant to be used by merchants in Nigeria.
 
 -     Login to your WordPress Admin area
 -     Go to "Plugins > Add New" from the left hand menu
--     In the search box type __Vendy WooCommerce Payment Gateway__
-- From the search result you will see **Vendy WooCommerce Payment Gateway** click on **Install Now** to install the plugin
+-     In the search box type __Vendy Woo Payment Gateway__
+- From the search result you will see **Vendy Woo Payment Gateway** click on **Install Now** to install the plugin
 - A popup window will ask you to confirm your wish to install the Plugin.
 - After installation, activate the plugin.
 -     Open the settings page for WooCommerce and click the "Checkout" tab.
@@ -130,13 +130,13 @@ To configure the plugin, go to **WooCommerce > Settings** from the left hand me
 
 ## Screenshots
 
-### 1. Vendy WooCommerce Payment Gateway Setting Page
+### 1. Vendy Woo Payment Gateway Setting Page
 
 ###
 
 ![Screenshot 1](https://github.com/VendyInc/woo-vendy/blob/master/assets/images/screenshot-1.png)
 
-### 2. Vendy WooCommerce Payment Gateway on the checkout page
+### 2. Vendy Woo Payment Gateway on the checkout page
 
 ###
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Vendy WooCommerce Payment Gateway
+ * Plugin Name: Vendy Woo Payment Gateway
  * Plugin URI: https://myvendy.com
  * Description: WooCommerce payment gateway for Vendy
  * Version: 1.0.1
@@ -27,7 +27,7 @@ define( 'WC_VENDY_URL', untrailingslashit( plugins_url( '/', __FILE__ ) ) );
 define( 'WC_VENDY_VERSION', '1.0.1' );
 
 /**
- * Initialize Vendy WooCommerce payment gateway.
+ * Initialize Vendy Woo Payment gateway.
  */
 function tbz_wc_vendy_init() {
 
@@ -68,7 +68,7 @@ add_action( 'plugins_loaded', 'tbz_wc_vendy_init', 99 );
 function tbz_woo_vendy_plugin_action_links( $links ) {
 
 	$settings_link = array(
-		'settings' => '<a href="' . admin_url( 'admin.php?page=wc-settings&tab=checkout&section=vendy' ) . '" title="' . __( 'View Vendy WooCommerce Settings', 'woo-vendy' ) . '">' . __( 'Settings', 'woo-vendy' ) . '</a>',
+		'settings' => '<a href="' . admin_url( 'admin.php?page=wc-settings&tab=checkout&section=vendy' ) . '" title="' . __( 'View Vendy Woo Settings', 'woo-vendy' ) . '">' . __( 'Settings', 'woo-vendy' ) . '</a>',
 	);
 
 	return array_merge( $settings_link, $links );
@@ -76,9 +76,9 @@ function tbz_woo_vendy_plugin_action_links( $links ) {
 }
 
 /**
- * Add Vendy Gateway to WooCommerce.
+ * Add Vendy Gateway to Woo.
  *
- * @param array $methods WooCommerce payment gateways methods.
+ * @param array $methods Woo payment gateways methods.
  *
  * @return array
  */

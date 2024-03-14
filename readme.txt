@@ -1,4 +1,4 @@
-=== Vendy WooCommerce Gateway ===
+=== Vendy Woo Gateway ===
 Contributors: Ayomide Fagbohungbe
 Tags: vendy, woocommerce, payment gateway, verve, nigeria, naira, mastercard, visa
 Requires at least: 5.8
@@ -60,8 +60,8 @@ This plugin is meant to be used by merchants in Nigeria.
 
 *   Go to __WordPress Admin__
 *   Go to __Plugins__ > __Add New__ from the left-hand menu
-*   In the search box type __Vendy WooCommerce Payment Gateway__
-*   Click on Install now when you see __Vendy WooCommerce Payment Gateway__ to install the plugin
+*   In the search box type __Vendy Woo Payment Gateway__
+*   Click on Install now when you see __Vendy Woo Payment Gateway__ to install the plugin
 *   After installation, __activate__ the plugin.
 
 
@@ -123,6 +123,6 @@ If you do not find Vendy on the Payment method options, please go through the se
 1. Vendy displayed as a payment method on the WooCommerce payment methods page
 
 
-2. Vendy WooCommerce payment gateway settings page
+2. Vendy Woo payment gateway settings page
 
 3. Vendy on WooCommerce Checkout
